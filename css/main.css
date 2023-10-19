@@ -43,10 +43,19 @@
     max-width: 505px;
     width: 100%;
     margin: 40px 0 0 0;
+    z-index: 1;
 }
 
 .wheel img {
     width: 100%;
+}
+
+.wheel-tr {
+    transition: transform 5s;
+}
+
+.rotate {
+    transform: rotate(3680deg);
 }
 
 .action-button {
@@ -65,6 +74,19 @@
     -moz-box-shadow: 10px 10px 7px -7px rgba(0, 0, 0, 0.75);
     box-shadow: 10px 10px 7px -7px rgba(0, 0, 0, 0.75);
     letter-spacing: 2px;
+    transition: all 0.3s;
+    z-index: 2;
+}
+
+.action-button:hover {
+    /* background: linear-gradient(180deg, #8e0010 0%, #a50113 70.33%, #86000f 126.67%); */
+    box-shadow:
+        0px 0px 1.64158px 0px #f00,
+        0px 0px 3.28317px 0px #f00,
+        0px 0px 11.49108px 0px #f00,
+        0px 0px 22.98217px 0px #f00,
+        0px 0px 20.398px 0px #f00,
+        0px 0px 40.9465px 0px #f00;
 }
 
 .footer {
