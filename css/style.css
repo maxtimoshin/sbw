@@ -29,7 +29,7 @@ body {
         zoom: 1;
     }
 }
-@media (-webkit-device-pixel-ratio: 1.75) {
+/* @media (-webkit-device-pixel-ratio: 1.75) {
     :root {
         zoom: 0.8;
     }
@@ -38,4 +38,4 @@ body {
     :root {
         zoom: 0.8;
     }
-}
+} */

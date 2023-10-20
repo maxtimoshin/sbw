@@ -1,5 +1,5 @@
 const actionButton = document.querySelector(".action-button");
-const wheel = document.querySelector(".wheel-image");
+const wheel = document.querySelector(".wheel-circle");
 const modal = document.querySelector(".modal");
 let rotating = false;
 actionButton.addEventListener("click", () => {
